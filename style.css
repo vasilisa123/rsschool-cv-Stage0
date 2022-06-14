@@ -15,9 +15,6 @@ body {
     box-sizing: border-box;
   }
 
-  header {
-    border: 1px solid purple;
-  }
 body {
     display: flex;
     flex-direction: column;
@@ -33,7 +30,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(96, 11, 207);
+    background-color: rgb(190, 247, 35);
     
   }
   html {
@@ -41,8 +38,17 @@ body {
   }
   .nav-list {
     list-style: none;
+    font-size: 2vh;
+    font-size: 2vw;
   }
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
+  }
+  .circle {
+    border-radius: 150px;
+    border: 10px dotted rgb(190, 247, 35);
+  }
+  .background {
+    background-image: url(./assets/img/phon.jpg);
   }
