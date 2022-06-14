@@ -16,7 +16,7 @@ body {
   }
 
   header {
-    border: 1px solid red;
+    border: 1px solid purple;
   }
 body {
     display: flex;
@@ -28,9 +28,13 @@ body {
     margin: 0 auto;
 }
 .nav-list {
+    font-size: 30px;
+    font-weight:900;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: rgb(96, 11, 207);
+    
   }
   html {
     scroll-behavior: smooth; 
@@ -42,4 +46,3 @@ body {
     padding: 0 20px;
     line-height: 50px;
   }
-
