@@ -1,6 +1,6 @@
 Vadim Mentuk
 
-Тел.: +375 25 926 74 51
+Phone.: +375 25 926 74 51
 E-mail: den.midav@gmail.com
 Telegram: Vasilisa_boroda
 Discord: Vadmas(vasilisa123)#4359
