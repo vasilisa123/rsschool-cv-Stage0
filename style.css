@@ -30,9 +30,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(190, 247, 35);
+    background-color:yellowgreen;
+}
     
-  }
+  
   html {
     scroll-behavior: smooth; 
   }
@@ -46,9 +47,18 @@ body {
     line-height: 50px;
   }
   .circle {
+    width: 20%;
+    height: 100%;
     border-radius: 150px;
-    border: 10px dotted rgb(190, 247, 35);
+    border: 10px dotted blueviolet;
+
+
   }
-  .background {
-    background-image: url(./assets/img/phon.jpg);
+
+  .section-title {
+    color: aqua;
+  }
+
+  .footer {
+    color: blueviolet;
   }
