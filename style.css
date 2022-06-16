@@ -15,9 +15,6 @@ body {
     box-sizing: border-box;
   }
 
-  header {
-    border: 1px solid red;
-  }
 body {
     display: flex;
     flex-direction: column;
@@ -28,17 +25,40 @@ body {
     margin: 0 auto;
 }
 .nav-list {
+    font-size: 30px;
+    font-weight:900;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
+    background-color:yellowgreen;
+}
+    
+  
   html {
     scroll-behavior: smooth; 
   }
   .nav-list {
     list-style: none;
+    font-size: 2vh;
+    font-size: 2vw;
   }
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
+  }
+  .circle {
+    width: 20%;
+    height: 100%;
+    border-radius: 150px;
+    border: 10px dotted blueviolet;
+
+
+  }
+
+  .section-title {
+    color: aqua;
+  }
+
+  .footer {
+    color: blueviolet;
   }
