@@ -56,9 +56,27 @@ body {
   }
 
   .section-title {
-    color: aqua;
+    color: rgb(0, 0, 0);
   }
 
   .footer {
-    color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:yellowgreen;
+  
+  }
+
+  .rslogo {
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    border: 10px solid blueviolet;
+  }
+
+  .gitlogo {
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    border: 10px solid blueviolet;
   }
