@@ -21,6 +21,8 @@ body {
     justify-content: space-between;
   }
 .container {
+    justify-content: center;
+    text-align: center;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -50,15 +52,43 @@ body {
     width: 20%;
     height: 100%;
     border-radius: 150px;
-    border: 10px dotted blueviolet;
+    border: 10px solid blueviolet;
 
 
   }
 
   .section-title {
-    color: aqua;
+    color: rgb(0, 0, 0);
   }
 
   .footer {
-    color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    background-color:yellowgreen;
+
+  
   }
+
+  .rslogo {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    border: 10px solid blueviolet;
+
+  }
+
+  .gitlogo {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    border: 10px solid blueviolet;
+
+  }
+
+.englimg {
+  width: 150px;
+  height: 150ps;
+}
+
